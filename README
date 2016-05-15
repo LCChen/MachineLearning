@@ -1,1 +1,2 @@
  I used this repository to store some recipe of setting up docker images for Machine Learning on NVidia GPU.
+ The recipe is based on the work of Lab41, from https://github.com/Lab41.
