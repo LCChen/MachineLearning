@@ -1,7 +1,16 @@
- I used this repository to store some recipe of setting up docker images for Machine Learning on NVidia GPU.
- The recipe is based on the work of Lab41, from https://github.com/Lab41 and the NVidia Docker.
- 1>Please install the right GPU driver for the NVidia Display Card.
- 2>Please install NVidaDocker (plugin and its speical command line tools)
- 3>Please make the docker image using keras-cuda
+ I used this repository to store some recipe of setting up docker images for Machine Learning on NVidia GPU. I love learning ML, 
+ but i do not want all its stuff mess up my local environment. I had once spending one week to setup the environment and then screwed up, :(. 
+ So search the internet, found those very help sources from docker, NVidia Docker and Lab41 and others. I spent some time doing experiments on them.
+ So far i am pretty satisfied. 
+ The recipe is based on the work of Lab41, from https://github.com/Lab41 and the NVidia Docker from https://github.com/NVIDIA/nvidia-docker
+ 1>Please install the right GPU driver for the NVidia Display Card and also the docker stuff.
+ 2>Please install NVidaDocker (plugin and its speical command line tools). Please follow the instruction of the NVida Docker. 
+ 3>Please make the docker image using keras-cuda/native_nvida
+    cd keras-cuda/native_nvida
+    1-build.sh
  4>Please make the docker image using keras-cuda-jupyter
+    cd keras-cuda-jupyter
+    1-build.sh
+ 5> Run the container
+    2-run.sh
  
