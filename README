@@ -1,16 +1,16 @@
- I used this repository to store some recipe of setting up docker images for Machine Learning on NVidia GPU. I love learning ML, 
- but i do not want all its stuff mess up my local environment. I had once spent one week to setup the environment and then screwed up, :(. 
- So search the internet, found those very help sources from docker, NVidia Docker and Lab41 and others. I spent some time doing experiments on them.
- So far i am pretty satisfied. 
- The recipe is based on the work of Lab41, from https://github.com/Lab41 and the NVidia Docker from https://github.com/NVIDIA/nvidia-docker
- 1>Please install the right GPU driver for the NVidia Display Card and also the docker stuff.
- 2>Please install NVidaDocker (plugin and its speical command line tools). Please follow the instruction of the NVida Docker. 
- 3>Please make the docker image using keras-cuda/native_nvida
-    cd keras-cuda/native_nvida
-    1-build.sh
- 4>Please make the docker image using keras-cuda-jupyter
-    cd keras-cuda-jupyter
-    1-build.sh
- 5> Run the container
-    2-run.sh
+   People want to do the machine learning, and mostly will use the NVidia GPU card for the speed. There is all kinds of Machine Learning Platforms, each of which needs some special setups. In order to avoid messing up you host machines, it is better to use some virtualization technolody. Docker is my choice since it could have native performance, and very easy to use. And most import to me, it support NVidia GPU Card easily using the nvidia-docker plugin and utilities. 
+   The repository is the result what i experiment in my local enviroment based on prevous works from
+    1> NVida Docker (https://github.com/NVIDIA/nvidia-docker)
+    2> Lab41 (https://github.com/Lab41)
+   Installation Prodcedure:
+    1>Please install the right GPU driver for the NVidia Display Card and also the docker stuff.
+    2>Please install NVidaDocker (plugin and its speical command line tools). Please follow the instruction of the NVida Docker. 
+    3>Please make the docker image using keras-cuda/native_nvida
+     cd keras-cuda/native_nvida
+     1-build.sh
+    4>Please make the docker image using keras-cuda-jupyter
+     cd keras-cuda-jupyter
+     1-build.sh
+    5> Run the container
+     2-run.sh
  
