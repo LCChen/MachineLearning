@@ -40,4 +40,5 @@ ADD config/jupyter/logo.png /usr/local/lib/python2.7/dist-packages/notebook/stat
 
 # default to jupyter notebook
 ADD config/jupyter/run/notebook.sh /notebook.sh
+RUN apt-get install python-pydot
 CMD ["/notebook.sh"]
