@@ -1,5 +1,5 @@
  I used this repository to store some recipe of setting up docker images for Machine Learning on NVidia GPU. I love learning ML, 
- but i do not want all its stuff mess up my local environment. I had once spending one week to setup the environment and then screwed up, :(. 
+ but i do not want all its stuff mess up my local environment. I had once spent one week to setup the environment and then screwed up, :(. 
  So search the internet, found those very help sources from docker, NVidia Docker and Lab41 and others. I spent some time doing experiments on them.
  So far i am pretty satisfied. 
  The recipe is based on the work of Lab41, from https://github.com/Lab41 and the NVidia Docker from https://github.com/NVIDIA/nvidia-docker
