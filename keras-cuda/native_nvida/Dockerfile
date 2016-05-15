@@ -1,6 +1,6 @@
 # keras builds on theano
 FROM lab41_local/keras-cuda
-MAINTAINER Kyle F <kylef@lab41.org>
+MAINTAINER Colin Chen <chenlc626@yahoo.com>
 
 LABEL com.nvidia.volumes.needed="nvidia_driver"
 ENV CUDA_VERSION 7.5
